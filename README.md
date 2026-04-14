@@ -28,4 +28,8 @@ Open Website → Select Movie → Load Seats → Book Seat → Update Total → 
 ---
 
 ## 🚀 Deployment
+
 GitHub + Netlify
+
+## 🌐 Live Website
+https://your-site-name.netlify.app
