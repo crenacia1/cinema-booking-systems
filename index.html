@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema Booking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎬 Cinema Seat Booking System</h1>
+
+<div class="controls">
+    <label>Select Movie:</label>
+    <select id="movieSelect" onchange="changeMovie()">
+        <option value="Avengers|250">Avengers: Endgame - ₱250</option>
+        <option value="SpiderMan|200">Spider-Man - ₱200</option>
+        <option value="Interstellar|180">Interstellar - ₱180</option>
+        <option value="Joker|220">Joker - ₱220</option>
+    </select>
+</div>
+
+<h3 id="priceDisplay">Price: ₱250</h3>
+
+<div class="screen">SCREEN</div>
+
+<div id="seats"></div>
+
+<h2 id="total">Total: ₱0</h2>
+
+<button onclick="resetSeats()">Reset Seats</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
